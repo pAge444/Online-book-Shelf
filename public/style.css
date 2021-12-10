@@ -1,0 +1,77 @@
+.container {
+  margin: 10px;
+}
+.bookcard {
+  border: 2px solid red;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.left-container {
+  float: left;
+  margin: 0;
+  width: 15%;
+  /* background-color: red; */
+  height: 300px;
+  padding: 0;
+}
+.middle_container {
+  float: left;
+  margin: 0;
+  width: 70%;
+  height: 300px;
+  padding: 0;
+}
+.right_container {
+  float: left;
+  margin: 0;
+  width: 15%;
+  /* background-color: yellow; */
+  height: 500px;
+  padding: 0;
+}
+
+.bookform {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid lightgray;
+  padding: 30px;
+}
+.bookMark {
+  font-size: 20px;
+  text-align: center;
+  background-color: red;
+}
+.vlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  height: 100%;
+}
+
+.vlist li a {
+  display: block;
+  color: #000;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.vlist li a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.vlist li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.book_text {
+  text-align: center;
+}
